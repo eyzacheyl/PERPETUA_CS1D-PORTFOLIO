@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Computing Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Particles Background -->
+<canvas id="particles"></canvas>
+
+<header>
+<nav class="navbar">
+<div class="logo-container">
+<img src="images/logo.png" class="site-logo">
+<h2 class="logo-text">Haru's Portfolio</h2>
+</div>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#works">Works</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#about">About</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- HOME SECTION -->
+<section id="home" class="home">
+<div class="home-text">
+<h1>Hello, I'm <span id="typed-name"></span></h1>
+<p>Here's my portfolio for ITEC50</p>
+<a href="#works" class="btn">View My Work</a>
+</div>
+<img src="images/student.jpg" class="student-img">
+</section>
+
+<!-- WORKS SECTION -->
+<section id="works">
+<h1 class="section-title">My Academic Works</h1>
+<div class="card-container">
+<a href="activities.html" class="card"><h2>Activities</h2><p>All classroom activities</p></a>
+<a href="quizzes.html" class="card"><h2>Quizzes</h2><p>My quiz performances</p></a>
+<a href="exams.html" class="card"><h2>Exams</h2><p>Major examinations</p></a>
+<a href="labs.html" class="card"><h2>Laboratory Activities</h2><p>Programming labs</p></a>
+</div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills">
+<h1 class="section-title">My Skills</h1>
+<div class="skills-container">
+<div class="skill">
+<h3>HTML</h3>
+<div class="skill-bar"><div class="skill-progress" style="width:45%"></div></div>
+</div>
+<div class="skill">
+<h3>CSS</h3>
+<div class="skill-bar"><div class="skill-progress" style="width:27%"></div></div>
+</div>
+<div class="skill">
+<h3>JavaScript</h3>
+<div class="skill-bar"><div class="skill-progress" style="width:32%"></div></div>
+</div>
+<div class="skill">
+<h3>Coding Languages</h3>
+<div class="skill-bar"><div class="skill-progress" style="width:10%"></div></div>
+</div>
+</div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+<h1 class="section-title">About Me</h1>
+<p class="about-text">
+Haru is currently a Computer Science student at Cavite State University. He is passionate about pursuing the wonders in the world of technology, programming, and problem-solving. This portfolio showcases his activities, quizzes, exams, and laboratory outputs throughout the course.
+</p>
+<div class="socials">
+
+<a href="https://github.com/clann-xd" target="_blank">
+<img src="images/github.png" alt="GitHub">
+</a>
+
+<a href="https://www.facebook.com/xapy67" target="_blank">
+<img src="images/facebook.png" alt="Facebook">
+</a>
+
+<a href="https://instagram.com/xapydomdomdom" target="_blank">
+<img src="images/instagram.png" alt="Instagram">
+</a>
+
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
