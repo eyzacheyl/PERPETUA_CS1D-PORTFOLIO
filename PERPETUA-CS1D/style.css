@@ -1,0 +1,113 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Montserrat', sans-serif; scroll-behavior:smooth;}
+body{background:#0f172a;color:white;overflow-x:hidden;}
+
+/* Particles canvas */
+#particles{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;}
+
+/* NAVBAR */
+.navbar{display:flex;justify-content:space-between;padding:20px 50px;background:rgba(0,0,0,0.4);backdrop-filter:blur(10px);position:fixed;width:100%;z-index:100;}
+.logo{color:#38bdf8;}
+.navbar ul{display:flex;list-style:none;}
+.navbar li{margin-left:25px;}
+.navbar a{color:white;text-decoration:none;font-weight:bold;transition:.3s;}
+.navbar a:hover{color:#38bdf8;}
+
+/* HOME */
+.home{height:100vh;display:flex;align-items:center;justify-content:space-around;padding:50px;}
+.home-text h1{font-size:50px;}
+.home-text span{color:#38bdf8;}
+.home-text p{margin:20px 0;font-size:18px;}
+.btn{background:#38bdf8;padding:12px 25px;border-radius:25px;text-decoration:none;color:black;font-weight:bold;transition:.3s;}
+.btn:hover{transform:scale(1.05);}
+.student-img{width:280px;border-radius:50%;border:6px solid #38bdf8;}
+
+/* WORKS */
+#works{padding:100px 50px;text-align:center;}
+.section-title{font-size:40px;margin-bottom:50px;}
+.card-container{display:flex;justify-content:center;flex-wrap:wrap;gap:30px;}
+.card{width:250px;height:180px;background:rgba(255,255,255,0.05);backdrop-filter:blur(15px);border-radius:20px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-decoration:none;color:white;transition:.4s;}
+.card:hover{transform:translateY(-10px) scale(1.05);background:#38bdf8;color:black;}
+
+/* SKILLS */
+#skills{padding:100px 50px;text-align:center;}
+.skills-container{max-width:700px;margin:auto;}
+.skill{margin:20px 0;}
+.skill h3{margin-bottom:5px;}
+.skill-bar{width:100%;height:25px;background:rgba(255,255,255,0.1);border-radius:25px;}
+.skill-progress{height:100%;background:#38bdf8;border-radius:25px;transition:1s;}
+
+/* ABOUT */
+#about{padding:100px 50px;text-align:center;}
+.about-text{max-width:700px;margin:auto;font-size:18px;line-height:1.6;margin-bottom:20px;}
+.socials a{margin:0 15px;display:inline-block;transition:.3s;}
+.socials img{width:40px;}
+.socials a:hover{transform:scale(1.2);}
+/* SUBPAGE STYLING */
+.subpage{padding:150px 50px;text-align:center;min-height:100vh;}
+.card-container{display:flex;justify-content:center;flex-wrap:wrap;gap:30px;margin-bottom:40px;}
+.card{width:250px;height:150px;background:rgba(255,255,255,0.05);backdrop-filter:blur(15px);border-radius:20px;display:flex;flex-direction:column;justify-content:center;align-items:center;transition:.4s;}
+.card:hover{transform:translateY(-10px) scale(1.05);background:#38bdf8;color:black;}
+
+.preview-card{
+width:300px;
+background:rgba(255,255,255,0.05);
+border-radius:20px;
+overflow:hidden;
+backdrop-filter:blur(15px);
+transition:.4s;
+}
+
+.preview-card img{
+width:100%;
+height:auto;
+max-height:250px;
+object-fit:contain;
+background:#000;
+padding:5px;
+}
+
+.preview-card-content{
+padding:15px;
+}
+
+.preview-card h2{
+margin-bottom:10px;
+}
+
+.preview-card p{
+font-size:14px;
+line-height:1.4;
+}
+
+.preview-card:hover{
+transform:translateY(-10px) scale(1.05);
+background:#38bdf8;
+color:black;
+}
+
+.logo-container{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.site-logo{
+width:40px;
+height:40px;
+object-fit:contain;
+}
+
+.logo-text{
+color:#38bdf8;
+font-weight:bold;
+}
+
+.site-logo{
+width:40px;
+transition:0.3s;
+}
+
+.site-logo:hover{
+transform:scale(1.1);
+filter:drop-shadow(0 0 8px #38bdf8);
+}
