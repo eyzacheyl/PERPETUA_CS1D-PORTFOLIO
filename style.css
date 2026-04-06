@@ -1,9 +1,6 @@
 *{margin:0;padding:0;box-sizing:border-box;font-family: 'Montserrat', sans-serif; scroll-behavior:smooth;}
 body{background:#0f172a;color:white;overflow-x:hidden;}
 
-/* Particles canvas */
-#particles{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;}
-
 /* NAVBAR */
 .navbar{display:flex;justify-content:space-between;padding:20px 50px;background:rgba(0,0,0,0.4);backdrop-filter:blur(10px);position:fixed;width:100%;z-index:100;}
 .logo{color:#38bdf8;}
