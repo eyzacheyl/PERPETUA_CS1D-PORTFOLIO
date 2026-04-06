@@ -111,3 +111,17 @@ transition:0.3s;
 transform:scale(1.1);
 filter:drop-shadow(0 0 8px #38bdf8);
 }
+.about-details {
+list-style: none;
+padding: 0;
+margin-top: 15px;
+}
+
+.about-details li {
+margin: 8px 0;
+font-size: 16px;
+}
+
+.about-details strong {
+color: #00adb5;
+}
